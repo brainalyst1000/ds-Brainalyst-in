@@ -15,4 +15,7 @@ body{
   color: #fff !important;
   font-family: 'centra',sans-serif !important;
 }
-
+/* #DDDCE2 */
+.project,.course{
+  background-image: linear-gradient(7deg, #cabfde 43%, #040304 100%);
+}

@@ -1,6 +1,6 @@
 import{Container,Row,Col,} from 'react-bootstrap';
 import './Banner.css';
-import bannerimg2 from '../bannerimg2.png';
+import bannerimg2 from '../bi2.svg';
 
 export const Banner=()=>{
     return(

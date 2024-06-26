@@ -53,22 +53,22 @@ export const Contact =() =>{
                     <img src={contactImg} alt="contactImg" />
                     </Col>
                     <Col md={6}>
-                    <h2>Get In Touch</h2>
+                    <h2>Get In Touch...</h2>
                     <form ref={form} onSubmit={handleOnSubmit}>
                         <Row>
                             <Col sm={6} className="px-1">
                             <input type="text" value={formDetails.firstName} name="firstName" placeholder="First Name" onChange={(e)=> onFormUpdate('firstName',e.target.value)}/>
                             </Col>
-                            <Col sm={6} className="px-2">
+                            <Col sm={6} className="px-1">
                             <input type="text" value={formDetails.lastName} name="lastName" placeholder="Last Name" onChange={(e)=> onFormUpdate('lastName',e.target.value)}/>
                             </Col>
-                            <Col sm={6} className="px-3">
+                            <Col sm={6} className="px-1">
                             <input type="email" value={formDetails.email} name="email" placeholder="Email Address" onChange={(e)=> onFormUpdate('email',e.target.value)}/>
                             </Col>
-                            <Col sm={6} className="px-4">
+                            <Col sm={6} className="px-1">
                             <input type="tel" value={formDetails.phone} name="phone" placeholder="Whatsapp No." onChange={(e)=> onFormUpdate('phone',e.target.value)}/>
                             </Col>
-                            <Col sm={6} className="px-5">
+                            <Col sm={6} className="px-1">
                             <Form.Select 
                                         aria-label="Select Qualification"
                                         value={formDetails.education}

@@ -1,5 +1,6 @@
 .contact {
-    background-image: linear-gradient(94deg, #4C01E0 43%, #8527E1 100%);
+    /* background-image: linear-gradient(94deg, #4C01E0 43%, #8527E1 100%); */
+    background-image: linear-gradient(7deg, #cabfde 43%, #040304 100%);;
     padding: 60px 0 200px 0;
   }
   .contact img {
