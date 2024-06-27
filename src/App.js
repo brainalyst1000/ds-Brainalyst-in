@@ -5,12 +5,18 @@ import CurriculumSection from './Components/Curriculum';
 import {Project} from './Components/Project';
 import {Jobprep} from './Components/Jobprep';
 import {Career} from './Components/Career'
-// import { Banner } from './Components/Banner';
+import { Expert } from './Components/Expert';
 import { Contact } from './Components/Contact';
-
+import { Bonus } from './Components/Bonus';
+import { Feature } from './Components/Feature';
+import { Review } from './Components/Reviews';
+import { Cretifiacte } from './Components/Certificates';
+import { Details } from './Components/Details';
+import { Book } from './Components/Book';
+import { FAQ } from './Components/Faq';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { Carousel } from 'react-bootstrap';
+// import { Banner } from './Components/Banner';
 
 function App() {
   return (
@@ -22,8 +28,16 @@ function App() {
       <Project/>
       <Jobprep/>
       <Career/>
-      {/* <Banner/> */}
       <Contact/>
+      <Expert/>
+      <Bonus/>
+      <Feature/>
+      <Review/>
+      <Cretifiacte/>
+      <Details/>
+      <Book/>
+      <FAQ/>
+      {/* <Banner/> */}
       
     </div>
   );

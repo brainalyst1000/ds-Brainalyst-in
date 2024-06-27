@@ -7,7 +7,7 @@ const CurriculumSection = () => {
     <section>
         <Container className="two_elementor_element">
             <Row>
-            <div className="course-title"><h2>This Course Is Specially Curated for ?</h2></div>
+            <div className="course-title"><h2  style={{fontWeight:'600'}}>Curriculum</h2></div>
                 <Col><Card style={{ width: '20rem', marginBottom:'3rem',display:'flex', justifyContent: 'center',alignItems:'center', }}>
                          <Card.Img variant="top" src={excelImg} style={{maxWidth:"7rem", marginTop:'2rem'}}/>
                        <Card.Body>

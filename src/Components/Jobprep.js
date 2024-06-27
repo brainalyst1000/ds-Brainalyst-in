@@ -11,7 +11,7 @@ export const Jobprep=()=>{
         <section className='Jobprep' id='jobprep'>
             <Container>
                 <Row>
-                <div className="course-title"><h2>Job Prepration</h2></div>
+                <div className="course-title"><h2  style={{fontWeight:'600'}}>Job Prepration</h2></div>
                 <Col><Card style={{ width: '20rem', marginBottom:'3rem',display:'flex', justifyContent: 'center',alignItems:'center' }}>
                          <Card.Img variant="top" src={jobprepimg1} style={{maxWidth:"7rem", marginTop:'2rem'}} />
                        <Card.Body>

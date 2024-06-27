@@ -9,7 +9,7 @@ export const Project=()=>{
         <section className='project' id='project'>
             <Container>
                 <Row>
-                <div className="course-title"><h2>Project</h2></div>
+                <div className="course-title"><h2  style={{fontWeight:'600'}}>Project</h2></div>
                 <Col><Card style={{ width: '20rem', marginBottom:'3rem',display:'flex', justifyContent: 'center',alignItems:'center' }}>
                          <Card.Img variant="top" src={project1} style={{maxWidth:"7rem", marginTop:'2rem'}} />
                        <Card.Body>

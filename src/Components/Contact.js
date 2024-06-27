@@ -1,6 +1,6 @@
 import { useState ,useRef} from "react"
 import { Container, Row ,Col,Form} from "react-bootstrap";
-import contactImg from '../contact-img.svg'
+import contactImg from '../undraw_contact_us_re_4qqt.svg'
 import './Contact.css'
 // import emailjs from '@emailjs/browser';
 

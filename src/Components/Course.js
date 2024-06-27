@@ -11,7 +11,7 @@ function Courses() {
     <section className='course' id='course'>
         <Container>
             <Row>
-                <div className="course-title"><h2>This Course Is Specially Curated for ?</h2></div>
+                <div className="course-title"><h2  style={{fontWeight:'600'}}>This Course Is Specially Curated for ?</h2></div>
                 <Col style={{display:'flex',justifyContent:'center',alignItems:'center'}}>
                 <Card style={{ width: '20rem', marginBottom:'3rem',display:'flex', justifyContent: 'center',alignItems:'center' }}>
                          <Card.Img variant="top" src={student} style={{maxWidth:"7rem", marginTop:'2rem'}} />
