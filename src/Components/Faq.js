@@ -36,11 +36,13 @@ export const FAQ = () => {
   ];
 
   return (
+    <section className='faq' id='faq'>
     <div style={styles.container}>
       {faqData.map((item, index) => (
         <FAQItem key={index} question={item.question} answer={item.answer} />
       ))}
     </div>
+    </section>
   );
 };
 const styles = {

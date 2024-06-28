@@ -8,10 +8,11 @@ export const Review=()=>{
             <Container>
                 <Row>
                     <div className="course-title"><h2>Student Reviews</h2></div>
+                    <Col>
                     <Player>
                         <source src="https://ds.brainalyst.in/wp-content/uploads/2024/06/b-removed.mp4"/>
                     </Player>
-
+                    </Col>
                 </Row>
             </Container>
         </section>

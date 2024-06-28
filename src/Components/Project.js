@@ -9,20 +9,20 @@ export const Project=()=>{
         <section className='project' id='project'>
             <Container>
                 <Row>
-                <div className="course-title"><h2  style={{fontWeight:'600'}}>Project</h2></div>
-                <Col><Card style={{ width: '20rem', marginBottom:'3rem',display:'flex', justifyContent: 'center',alignItems:'center' }}>
+                <div className="course-title"><h2 style={{display:'flex',justifyContent:'center',alignItems:'center',fontWeight:'600'}} className='animate__animated animate__bounce'>Project</h2></div>
+                <Col style={{display:'flex',justifyContent:'center',alignItems:'center'}}><Card style={{ width: '20rem', marginBottom:'3rem',display:'flex', justifyContent: 'center',alignItems:'center' }}>
                          <Card.Img variant="top" src={project1} style={{maxWidth:"7rem", marginTop:'2rem'}} />
                        <Card.Body>
                              <Card.Title style={{fontFamily:"'Tahoma', Sans-serif",textAlign:'center',fontSize:'large',fontWeight:'600'}}>100+ Assignments</Card.Title>
                        </Card.Body>
                    </Card></Col>
-                   <Col><Card style={{ width: '20rem', marginBottom:'3rem',display:'flex', justifyContent: 'center',alignItems:'center' }}>
+                   <Col style={{display:'flex',justifyContent:'center',alignItems:'center'}}><Card style={{ width: '20rem', marginBottom:'3rem',display:'flex', justifyContent: 'center',alignItems:'center' }}>
                          <Card.Img variant="top" src={project2} style={{maxWidth:"7rem", marginTop:'2rem'}} />
                        <Card.Body>
                              <Card.Title style={{fontFamily:"'Tahoma', Sans-serif",textAlign:'center',fontSize:'large',fontWeight:'600'}}>50+ Industry Relevant Case Studies</Card.Title>
                        </Card.Body>
                    </Card></Col>
-                   <Col><Card style={{ width: '20rem', marginBottom:'3rem',display:'flex', justifyContent: 'center',alignItems:'center' }}>
+                   <Col style={{display:'flex',justifyContent:'center',alignItems:'center'}}><Card style={{ width: '20rem', marginBottom:'3rem',display:'flex', justifyContent: 'center',alignItems:'center' }}>
                          <Card.Img variant="top" src={project3} style={{maxWidth:"7rem", marginTop:'2rem'}} />
                        <Card.Body>
                              <Card.Title style={{fontFamily:"'Tahoma', Sans-serif",textAlign:'center',fontSize:'large',fontWeight:'600'}}>2 Capstone Projects</Card.Title>

@@ -5,13 +5,14 @@ import student from '../undraw_reading_book_re_kqpk.svg';
 import Graduate from '../undraw_teacher_re_sico.svg';
 import experienced from '../undraw_project_completed_re_jr7u.svg';
 import './Course.css';
+import 'animate.css';
 
 function Courses() {
   return (
     <section className='course' id='course'>
         <Container>
             <Row>
-                <div className="course-title"><h2  style={{fontWeight:'600'}}>This Course Is Specially Curated for ?</h2></div>
+                <div className="course-title"><h2 style={{fontWeight:'600'}} className='animate__animated animate__fadeInLeft'>This Course Is Specially Curated for ?</h2></div>
                 <Col style={{display:'flex',justifyContent:'center',alignItems:'center'}}>
                 <Card style={{ width: '20rem', marginBottom:'3rem',display:'flex', justifyContent: 'center',alignItems:'center' }}>
                          <Card.Img variant="top" src={student} style={{maxWidth:"7rem", marginTop:'2rem'}} />
@@ -23,7 +24,7 @@ function Courses() {
                            {/* <Button variant="primary">Go somewhere</Button> */}
                        </Card.Body>
                    </Card></Col>
-                <Col><Card style={{ width: '20rem', marginBottom:'3rem',display:'flex', justifyContent: 'center',alignItems:'center' }}>
+                <Col style={{display:'flex',justifyContent:'center',alignItems:'center'}}><Card style={{ width: '20rem', marginBottom:'3rem',display:'flex', justifyContent: 'center',alignItems:'center' }}>
                          <Card.Img variant="top" src={Graduate} style={{maxWidth:"7rem", marginTop:'2rem'}}/>
                        <Card.Body>
                              <Card.Title style={{fontFamily:"'Tahoma', Sans-serif",textAlign:'center',fontSize:'large',fontWeight:'600'}}>Fresher Graduate</Card.Title>
@@ -33,7 +34,7 @@ function Courses() {
                            {/* <Button variant="primary">Go somewhere</Button> */}
                        </Card.Body>
                    </Card></Col>
-                <Col><Card style={{ width: '20rem', marginBottom:'3rem',display:'flex', justifyContent: 'center',alignItems:'center'}}>
+                <Col style={{display:'flex',justifyContent:'center',alignItems:'center'}}><Card style={{ width: '20rem', marginBottom:'3rem',display:'flex', justifyContent: 'center',alignItems:'center'}}>
                          <Card.Img variant="top" src={experienced} style={{maxWidth:"7rem", marginTop:'2rem'}}/>
                        <Card.Body>
                              <Card.Title style={{fontFamily:"'Tahoma',textAlign:'center', Sans-serif",fontSize:'large',fontWeight:'600'}}>Experienced Professional</Card.Title>

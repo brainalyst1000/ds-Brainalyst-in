@@ -12,8 +12,9 @@ export const Bonus=()=>{
             <hr />
             <Container>
                 <Row>
-                    <div className="course-title"><h2 style={{fontWeight:'600'}}>Additional Bonus</h2></div>                    
-                      <Col>
+                    <div className="course-title"><h2 style={{fontWeight:'600',textDecoration:'underline'}}>Additional Bonus</h2></div>                    
+                    
+                      <Col style={{display:'flex',justifyContent:'center',alignItems:'center'}}>
                         <Card style={{ width: '20rem', marginBottom:'3rem',display:'flex', justifyContent: 'center',alignItems:'center' }}>
                          <Card.Img variant="top" src={bonusImg1} style={{maxWidth:"7rem", marginTop:'2rem'}} />
                            <Card.Body>
@@ -21,7 +22,7 @@ export const Bonus=()=>{
                           </Card.Body>
                        </Card>
                    </Col>
-                   <Col>
+                   <Col style={{display:'flex',justifyContent:'center',alignItems:'center'}}>
                         <Card style={{ width: '20rem', marginBottom:'3rem',display:'flex', justifyContent: 'center',alignItems:'center' }}>
                          <Card.Img variant="top" src={bonusImg2} style={{maxWidth:"7rem", marginTop:'2rem'}} />
                            <Card.Body>
@@ -30,7 +31,7 @@ export const Bonus=()=>{
                           </Card.Body>
                        </Card>
                    </Col>
-                   <Col>
+                   <Col style={{display:'flex',justifyContent:'center',alignItems:'center'}}>
                         <Card style={{ width: '20rem', marginBottom:'3rem',display:'flex', justifyContent: 'center',alignItems:'center' }}>
                          <Card.Img variant="top" src={bonusImg3} style={{maxWidth:"7rem", marginTop:'2rem'}} />
                            <Card.Body>
@@ -38,7 +39,7 @@ export const Bonus=()=>{
                           </Card.Body>
                        </Card>
                    </Col>
-                   <Col>
+                   <Col style={{display:'flex',justifyContent:'center',alignItems:'center'}}>
                         <Card style={{ width: '20rem', marginBottom:'3rem',display:'flex', justifyContent: 'center',alignItems:'center' }}>
                          <Card.Img variant="top" src={bonusImg4} style={{maxWidth:"7rem", marginTop:'2rem'}} />
                            <Card.Body>
@@ -46,7 +47,7 @@ export const Bonus=()=>{
                           </Card.Body>
                        </Card>
                    </Col>
-                   <Col>
+                   <Col style={{display:'flex',justifyContent:'center',alignItems:'center'}}>
                         <Card style={{ width: '20rem', marginBottom:'3rem',display:'flex', justifyContent: 'center',alignItems:'center' }}>
                          <Card.Img variant="top" src={bonusImg5} style={{maxWidth:"7rem", marginTop:'2rem'}} />
                            <Card.Body>
@@ -54,7 +55,7 @@ export const Bonus=()=>{
                           </Card.Body>
                        </Card>
                    </Col>
-                   <Col>
+                   <Col style={{display:'flex',justifyContent:'center',alignItems:'center'}}>
                         <Card style={{ width: '20rem', marginBottom:'3rem',display:'flex', justifyContent: 'center',alignItems:'center' }}>
                          <Card.Img variant="top" src={bonusImg6} style={{maxWidth:"7rem", marginTop:'2rem'}} />
                            <Card.Body>

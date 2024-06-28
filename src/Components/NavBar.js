@@ -9,26 +9,26 @@
     import navicon2 from '../nav-icon2.svg';
     import navicon3 from '../nav-icon3.svg';
     
-    function NavBar() {
-    // export const Navbar=()=>{
-      // const[activeLink,setActiveLink]=useState('home');
-      // const[scrolled,setScrolled]=useState(false);
-      // useEffect(()=>{
-      //       const onScroll =()=>{
-      //       if(window.scrollY>50){
-      //             setScrolled(true);
-      //         }else{
-      //               setScrolled(false);
-      //           }
-      //       }
+    
+    export const NavBar=()=>{
+      const[activeLink,setActiveLink]=useState('home');
+      const[scrolled,setScrolled]=useState(false);
+      useEffect(()=>{
+            const onScroll =()=>{
+            if(window.scrollY>50){
+                  setScrolled(true);
+              }else{
+                    setScrolled(false);
+                }
+            }
         
-      //       window.addEventListener("scroll",onScroll);
-      //       return()=> window.removeEventListener("scroll",onScroll);
-      //   },[])
+            window.addEventListener("scroll",onScroll);
+            return()=> window.removeEventListener("scroll",onScroll);
+        },[])
         
-      //   const onUpdatedActiveLink=(value) =>{
-      //         setActiveLink(value)
-      //     }
+        const onUpdatedActiveLink=(value) =>{
+              setActiveLink(value)
+          }
           return(
             <Navbar collapseOnSelect expand="lg">
       <Container fluid>
@@ -40,7 +40,18 @@
         </Navbar.Toggle>
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="custom-left-margin">
-            {/* <Nav.Link href="#home"className={activeLink==='home' ? 'active navbar-link' : 'navbar-link'} onclick={() => onUpdatedActiveLink("home")}>Home</Nav.Link> */}
+            <Nav.Link href="#home"className={activeLink==='home' ? 'active navbar-link' : 'navbar-link'} onclick={() => onUpdatedActiveLink("home")}>Home</Nav.Link>
+            <Nav.Link href="#course"className={activeLink==='course' ? 'active navbar-link' : 'navbar-link'} onclick={() => onUpdatedActiveLink("course")}>Course</Nav.Link>
+            <Nav.Link href="#Curriculum"className={activeLink==='curriculum' ? 'active navbar-link' : 'navbar-link'} onclick={() => onUpdatedActiveLink("curriculum")}>Curriculum</Nav.Link>
+            <Nav.Link href="#project"className={activeLink==='project' ? 'active navbar-link' : 'navbar-link'} onclick={() => onUpdatedActiveLink("project")}>Project</Nav.Link>
+            <Nav.Link href="#career"className={activeLink==='career' ? 'active navbar-link' : 'navbar-link'} onclick={() => onUpdatedActiveLink("career")}>Career</Nav.Link>
+            <Nav.Link href="#jobprep"className={activeLink==='jobprep' ? 'active navbar-link' : 'navbar-link'} onclick={() => onUpdatedActiveLink("job")}>Job</Nav.Link>
+            <Nav.Link href="#expert"className={activeLink==='expert' ? 'active navbar-link' : 'navbar-link'} onclick={() => onUpdatedActiveLink("expert")}>Expert</Nav.Link>
+            <Nav.Link href="#bonus"className={activeLink==='bonus' ? 'active navbar-link' : 'navbar-link'} onclick={() => onUpdatedActiveLink("bonus")}>Bonus</Nav.Link>
+            <Nav.Link href="#feature"className={activeLink==='feature' ? 'active navbar-link' : 'navbar-link'} onclick={() => onUpdatedActiveLink("Feature")}>Feature</Nav.Link>
+            <Nav.Link href="#review"className={activeLink==='review' ? 'active navbar-link' : 'navbar-link'} onclick={() => onUpdatedActiveLink("review")}>Review</Nav.Link>
+            <Nav.Link href="#certificate"className={activeLink==='certificate' ? 'active navbar-link' : 'navbar-link'} onclick={() => onUpdatedActiveLink("certificate")}>Certificate</Nav.Link>
+            {/* <Nav.Link href="#project"className={activeLink==='project' ? 'active navbar-link' : 'navbar-link'} onclick={() => onUpdatedActiveLink("project")}>Project</Nav.Link> */}
             
           </Nav>
           <span className="navbar-text">
@@ -58,4 +69,4 @@
     </Navbar>
     )
   }
-  export {NavBar} ;
+  

@@ -1,10 +1,11 @@
 .brand-logo-img{
-    width: 100%;
+    width: 160px;
+    object-fit: contain;
     filter: invert(100%) brightness(200%);
 }
 
 nav.navbar{
-    padding: 2px 0;
+    padding: 8px 0;
     position:fixed;
     width: 100%;
     top: 0;
@@ -18,7 +19,7 @@ nav.navbar.scrolled{
 nav.navbar a.navbar-brand{
     width: 9%;
     color: white;
-    font-size: 2em;
+    font-size: 1.8rem;
     font-weight: 700;
 }
 
@@ -26,9 +27,9 @@ nav.navbar .navbar-nav .nav-link.navbar-link{
     font-weight: 400;
     color: #fff !important;
     letter-spacing: 0.8;
-    padding: 0 25px;
+    padding: 0 8px;
     opacity: 0.75;
-    font-size: 18px;
+    font-size: 16px;
 }
 .custom-left-margin{
     margin-left: auto;
@@ -43,7 +44,7 @@ span.navbar-text{
 }
 .social-icon{
     display: inline-block;
-    margin-left: 14px;
+    margin-left: 10px;
 }
 .social-icon a {
     width: 42px;
@@ -83,9 +84,9 @@ span.navbar-text{
     font-weight: 700;
     color: #fff;
     border: 1px solid #fff;
-    padding: 18px 34px;
-    font-size: 18px;
-    margin-left: 18px;
+    padding: 12px 24px;
+    font-size: 16px;
+    margin-left: 12px;
       position: relative;
       background-color: transparent;
       transition: 0.3s ease-in-out;
@@ -161,19 +162,51 @@ span.navbar-text{
 
   
  /* Media Queries for Responsiveness */
-@media (max-width: 768px) {
-    nav.navbar a.navbar-brand {
-        width: auto; /* Adjust width for smaller screens */
+ @media (max-width: 992px) {
+    nav.navbar .navbar-nav .nav-link.navbar-link {
+        font-size: 14px; 
+        padding: 0 6px; 
     }
 
-    nav.navbar .navbar-nav .nav-link.navbar-link {
-        padding: 0 15px;
-        font-size: 16px; /* Slightly smaller font size */
+    .social-icon a {
+        width: 30px;
+        height: 30px;
+    }
+
+    .social-icon a::before {
+        width: 30px;
+        height: 30px;
+    }
+
+    .social-icon a img {
+        width: 70%;
     }
 
     .navbar-text button {
-        padding: 10px 20px;
-        font-size: 16px; /* Slightly smaller font size */
+        padding: 10px 20px; 
+        font-size: 14px; 
+        margin-left: 10px; 
+    }
+}
+
+@media (max-width: 768px) {
+    nav.navbar{
+        padding: 6px 0;
+
+    }
+    nav.navbar a.navbar-brand {
+        width: auto; 
+    }
+
+    nav.navbar .navbar-nav .nav-link.navbar-link {
+        padding: 0 4px;
+        font-size: 12px; 
+    }
+
+    .navbar-text button {
+        padding: 8px 16px;
+        font-size: 12px; 
+        margin-left: 8px;
     }
 
     .social-icon a {
@@ -193,17 +226,17 @@ span.navbar-text{
 
 @media (max-width: 480px) {
     nav.navbar a.navbar-brand {
-        width: auto; /* Further adjusted width for very small screens */
+        width: auto; 
     }
 
     nav.navbar .navbar-nav .nav-link.navbar-link {
         padding: 0 10px;
-        font-size: 14px; /* Further smaller font size */
+        font-size: 14px; 
     }
 
     .navbar-text button {
         padding: 8px 16px;
-        font-size: 14px; /* Further smaller font size */
+        font-size: 14px; 
     }
 
     .social-icon a {

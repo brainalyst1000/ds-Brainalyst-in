@@ -3,9 +3,9 @@ import {Container,Row,Col} from 'react-bootstrap';
 import certificate1 from'../certificate1.jpeg';
 import certificate2 from'../certificate2.jpeg';
 
-export const Cretifiacte=()=>{
+export const Cretificate=()=>{
     return(
-        <section className="certificate" id="crtificate">
+        <section className="certificate" id="certificate">
             <Container>
                 <Row>
                     <div className="course-title"><h2>Certificate</h2></div>

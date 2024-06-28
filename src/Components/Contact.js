@@ -2,6 +2,7 @@ import { useState ,useRef} from "react"
 import { Container, Row ,Col,Form} from "react-bootstrap";
 import contactImg from '../undraw_contact_us_re_4qqt.svg'
 import './Contact.css'
+
 // import emailjs from '@emailjs/browser';
 
 
@@ -53,7 +54,7 @@ export const Contact =() =>{
                     <img src={contactImg} alt="contactImg" />
                     </Col>
                     <Col md={6}>
-                    <h2>Get In Touch...</h2>
+                    <h2 className="animate__animated animate__rubberBand">Get In Touch...</h2>
                     <form ref={form} onSubmit={handleOnSubmit}>
                         <Row>
                             <Col sm={6} className="px-1">
@@ -83,7 +84,7 @@ export const Contact =() =>{
                             </Col>
                             <Col>
                             <textarea rows='6' value={formDetails.message} name="message" placeholder="Message" onChange={(e)=> onFormUpdate('message',e.target.value)}></textarea>
-                            <button type="submit"><span>{buttonText}</span></button>
+                            <button type="submit" style={{borderRadius:'30px'}}><span>{buttonText}</span></button>
                             </Col>
                             {status.message &&
                             <Col>

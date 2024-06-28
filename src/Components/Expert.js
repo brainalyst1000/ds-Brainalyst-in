@@ -36,7 +36,7 @@ export const Expert=()=>{
                 <Row>
                     <Col>
                     <div className="expert-bx">
-                        <h2>Mentors & Expert</h2>
+                        <h2 className="animate__animated animate__heartBeat">Mentors & Expert</h2>
                         <hr />
                     <Carousel responsive={responsive} infinite={true} className="expert-slider">
                         <div className="items"><img src={mentor1} alt="mentors" /><h5>FOUNDER - BRAINALYST</h5><p>Nitin Sharma</p></div>

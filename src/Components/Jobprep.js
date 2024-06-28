@@ -11,38 +11,38 @@ export const Jobprep=()=>{
         <section className='Jobprep' id='jobprep'>
             <Container>
                 <Row>
-                <div className="course-title"><h2  style={{fontWeight:'600'}}>Job Prepration</h2></div>
-                <Col><Card style={{ width: '20rem', marginBottom:'3rem',display:'flex', justifyContent: 'center',alignItems:'center' }}>
+                <div className="course-title"><h2 style={{fontWeight:'600'}} className='animate__animated animate__flipInY'>Job Prepration</h2></div>
+                <Col style={{display:'flex',justifyContent:'center',alignItems:'center'}}><Card style={{ width: '20rem', marginBottom:'3rem',display:'flex', justifyContent: 'center',alignItems:'center' }}>
                          <Card.Img variant="top" src={jobprepimg1} style={{maxWidth:"7rem", marginTop:'2rem'}} />
                        <Card.Body>
                              <Card.Title style={{fontFamily:"'Tahoma', Sans-serif",textAlign:'center',fontSize:'large',fontWeight:'600'}}>Resume Building</Card.Title>
                        </Card.Body>
                    </Card></Col>
-                   <Col><Card style={{ width: '20rem', marginBottom:'3rem',display:'flex', justifyContent: 'center',alignItems:'center' }}>
+                   <Col style={{display:'flex',justifyContent:'center',alignItems:'center'}}><Card style={{ width: '20rem', marginBottom:'3rem',display:'flex', justifyContent: 'center',alignItems:'center' }}>
                          <Card.Img variant="top" src={jobprepimg2} style={{maxWidth:"7rem", marginTop:'2rem'}} />
                        <Card.Body>
                              <Card.Title style={{fontFamily:"'Tahoma', Sans-serif",textAlign:'center',fontSize:'large',fontWeight:'600'}}>Industry Mentorship Session</Card.Title>
                        </Card.Body>
                    </Card></Col>
-                   <Col><Card style={{ width: '20rem', marginBottom:'3rem',display:'flex', justifyContent: 'center',alignItems:'center' }}>
+                   <Col style={{display:'flex',justifyContent:'center',alignItems:'center'}}><Card style={{ width: '20rem', marginBottom:'3rem',display:'flex', justifyContent: 'center',alignItems:'center' }}>
                          <Card.Img variant="top" src={jobprepimg3} style={{maxWidth:"7rem", marginTop:'2rem'}} />
                        <Card.Body>
                              <Card.Title style={{fontFamily:"'Tahoma', Sans-serif",textAlign:'center',fontSize:'large',fontWeight:'600'}}>General Aptitude preparation sessions</Card.Title>
                        </Card.Body>
                    </Card></Col>
-                   <Col><Card style={{ width: '20rem', marginBottom:'3rem',display:'flex', justifyContent: 'center',alignItems:'center' }}>
+                   <Col style={{display:'flex',justifyContent:'center',alignItems:'center'}}><Card style={{ width: '20rem', marginBottom:'3rem',display:'flex', justifyContent: 'center',alignItems:'center' }}>
                          <Card.Img variant="top" src={jobprepimg4} style={{maxWidth:"7rem", marginTop:'2rem'}} />
                        <Card.Body>
                              <Card.Title style={{fontFamily:"'Tahoma', Sans-serif",textAlign:'center',fontSize:'large',fontWeight:'600'}}>Github Repository Building Course</Card.Title>
                        </Card.Body>
                    </Card></Col>
-                   <Col><Card style={{ width: '20rem', marginBottom:'3rem',display:'flex', justifyContent: 'center',alignItems:'center' }}>
+                   <Col style={{display:'flex',justifyContent:'center',alignItems:'center'}}><Card style={{ width: '20rem', marginBottom:'3rem',display:'flex', justifyContent: 'center',alignItems:'center' }}>
                          <Card.Img variant="top" src={jobprepimg5} style={{maxWidth:"7rem", marginTop:'2rem'}} />
                        <Card.Body>
                              <Card.Title style={{fontFamily:"'Tahoma', Sans-serif",textAlign:'center',fontSize:'large',fontWeight:'600'}}>Linkedin Profile Building Course</Card.Title>
                        </Card.Body>
                    </Card></Col>
-                   <Col><Card style={{ width: '20rem', marginBottom:'3rem',display:'flex', justifyContent: 'center',alignItems:'center' }}>
+                   <Col style={{display:'flex',justifyContent:'center',alignItems:'center'}}><Card style={{ width: '20rem', marginBottom:'3rem',display:'flex', justifyContent: 'center',alignItems:'center' }}>
                          <Card.Img variant="top" src={jobprepimg6} style={{maxWidth:"7rem", marginTop:'2rem'}} />
                        <Card.Body>
                              <Card.Title style={{fontFamily:"'Tahoma', Sans-serif",textAlign:'center',fontSize:'large',fontWeight:'600'}}>Mock Interview</Card.Title>
