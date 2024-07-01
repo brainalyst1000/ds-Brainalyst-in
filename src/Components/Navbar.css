@@ -5,12 +5,13 @@
 }
 
 nav.navbar{
-    padding: 8px 0;
+    padding: 0 0;
     position:fixed;
     width: 100%;
     top: 0;
     z-index: 9999;
-    transition: 0.32 ease-in-out;
+    background-color: transparent;
+    transition: 0.32 ease-in-out, padding 0.3s ease-in-out;
 }
 nav.navbar.scrolled{
     padding: 0px 0;
@@ -28,15 +29,16 @@ nav.navbar .navbar-nav .nav-link.navbar-link{
     color: #fff !important;
     letter-spacing: 0.8;
     padding: 0 8px;
-    opacity: 0.75;
+    opacity: 1;
     font-size: 16px;
+        
 }
 .custom-left-margin{
     margin-left: auto;
 }
 nav.navbar .navbar-nav .nav-link.navbar-link:hover,
 nav.navbar .navbar-nav .nav-link.navbar-link:active{
-    opacity: 1;
+color: #aca9a9 !important;
 }
 span.navbar-text{
     display: flex;

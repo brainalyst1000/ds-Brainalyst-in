@@ -20,10 +20,10 @@ export const Foot=()=>{
                 <div style={{display:"flex",justifyContent:'space-around',padding:'1rem'}}>
                 <div><span><h3>Get connected With us On Social Media</h3></span></div>
                 <div className="social-icon">
-                <a href="#"><img src={navicon1} alt="" /></a>
-                <a href="#"><img src={navicon2} alt="" /></a>
-                <a href="#"><img src={navicon3} alt="" /></a>
-                <a href="#"><img src={navicon4} alt="" /></a>
+                <a href="https://www.linkedin.com/company/brainalyst/posts/?feedView=all"><img src={navicon1} alt="linkedin" /></a>
+                <a href="https://www.facebook.com/Brainalystindia/"><img src={navicon2} alt="facebook" /></a>
+                <a href="https://www.instagram.com/brainalyst_india/"><img src={navicon3} alt="instagram" /></a>
+                <a href="https://www.youtube.com/channel/UCphzWgX1Inhm3VAaSBDGwuw"><img src={navicon4} alt="youtube" /></a>    
                 </div>
                 </div>
                 <hr />
@@ -42,9 +42,9 @@ export const Foot=()=>{
                     <p><a href="" style={{textDecoration:'none',color:'#fff'}}>Offers</a></p>
                     </Col>
                     <Col><h6>Contact</h6>
-                    <p><i class="fa-solid fa-house" style={{color: '#ffffff'}}></i> F-22,Crona Arcade Bhadurgarh ,Haryana</p>
+                    {/* <p><i class="fa-solid fa-house" style={{color: '#ffffff'}}></i> F-22,Crona Arcade Bhadurgarh ,Haryana</p> */}
                     <p><i class="fa-solid fa-envelope" style={{color: '#ffffff'}}></i> info@brainalst.in</p>
-                    <p><i class="fa-solid fa-phone" style={{color: '#ffffff'}}></i> +91-0000000000</p>
+                    <p><i class="fa-solid fa-phone" style={{color: '#ffffff'}}></i> +91-7419915555</p>
                     {/* <p>+91-0000000000</p> */}
                     </Col>
                 </Row>

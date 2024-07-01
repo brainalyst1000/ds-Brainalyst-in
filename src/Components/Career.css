@@ -1,3 +1,12 @@
 #cc1{
     background-image: url(../careerimg1.jpg);
 }
+.career button svg{
+    margin-left: 10px;
+    font-size: 25px;
+    transition: 0.3s ease-in-out;
+    line-height: 1;
+}
+.career button:hover svg {
+    margin-left: 25px;
+  }

@@ -20,7 +20,8 @@ import { BrowserRouter as Router, Route, Routes,Link} from 'react-router-dom';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'animate.css';
-// import { Banner } from './Components/Banner';
+
+
 
 function App() {
   return (  

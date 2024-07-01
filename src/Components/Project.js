@@ -2,6 +2,7 @@ import {Container,Row,Col,Card} from 'react-bootstrap';
 import project1 from '../project1img.svg';
 import project2 from '../project2img.svg';
 import project3 from '../project3img.svg';
+import TrackVisibility from 'react-on-screen';
 
 
 export const Project=()=>{
@@ -9,7 +10,10 @@ export const Project=()=>{
         <section className='project' id='project'>
             <Container>
                 <Row>
-                <div className="course-title"><h2 style={{display:'flex',justifyContent:'center',alignItems:'center',fontWeight:'600'}} className='animate__animated animate__bounce'>Project</h2></div>
+                    <TrackVisibility>
+                    {({ isVisible }) =>
+                <div className="course-title"><h2 style={{display:'flex',justifyContent:'center',alignItems:'center',fontWeight:'600'}} className={isVisible ? 'animate__animated animate__bounce' : ''}>Project</h2></div>}
+                </TrackVisibility>
                 <Col style={{display:'flex',justifyContent:'center',alignItems:'center'}}><Card style={{ width: '20rem', marginBottom:'3rem',display:'flex', justifyContent: 'center',alignItems:'center' }}>
                          <Card.Img variant="top" src={project1} style={{maxWidth:"7rem", marginTop:'2rem'}} />
                        <Card.Body>
