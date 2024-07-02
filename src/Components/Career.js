@@ -5,7 +5,7 @@ import TrackVisibility from 'react-on-screen';
 import { ArrowRightCircle } from "react-bootstrap-icons"
 export const Career=()=>{
     return(
-        <section className='career' id='career'>
+        <section className='career' id='career' style={{padding: '2rem 0'}}>
             <Container fluid>
                 <Row>
                     <Col><img src={careerImgleft} alt="careerimg" style={{maxHeight:'30rem'}} /></Col>

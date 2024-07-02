@@ -28,7 +28,7 @@ export const Foot=()=>{
                 </div>
                 <hr />
                 <Row>
-                    <Col><h3>Brainalyst</h3><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non mollitia modi reiciendis.</p></Col>
+                    <Col><h2 style={{fontSize: '3rem'}}>Brainalyst</h2><p>A Data Driven Company.</p></Col>
                     {/* <Col><h6>Product</h6><p>DS</p>
                     <p>Python</p>
                     <p>Tablue</p>
@@ -43,8 +43,8 @@ export const Foot=()=>{
                     </Col>
                     <Col><h6>Contact</h6>
                     {/* <p><i class="fa-solid fa-house" style={{color: '#ffffff'}}></i> F-22,Crona Arcade Bhadurgarh ,Haryana</p> */}
-                    <p><i class="fa-solid fa-envelope" style={{color: '#ffffff'}}></i> info@brainalst.in</p>
-                    <p><i class="fa-solid fa-phone" style={{color: '#ffffff'}}></i> +91-7419915555</p>
+                    <p><i className="fa-solid fa-envelope" style={{color: '#ffffff'}}></i> info@brainalst.in</p>
+                    <p><i className="fa-solid fa-phone" style={{color: '#ffffff'}}></i> +91-7419915555</p>
                     {/* <p>+91-0000000000</p> */}
                     </Col>
                 </Row>

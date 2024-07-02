@@ -8,7 +8,7 @@ export const Feature=()=>{
                 <Row>
                     <div className="course-title"><h2  style={{fontWeight:'600'}}>Features</h2></div><hr />
                     <Col>
-                    <Table>
+                    <Table responsive>
                         <thead>
                             <tr>
                                 <th>Feature</th>
@@ -22,75 +22,75 @@ export const Feature=()=>{
                         <tbody>
                             <tr>
                                 <th>Afordable Course</th>
-                                <th><i class="fa-solid fa-check" style={{color:'#1bde17'}}></i></th>
-                                <th><i class="fa-solid fa-xmark"style={{color:'#fe0101'}}></i></th>
-                                <th><i class="fa-solid fa-xmark"style={{color:'#fe0101'}}></i></th>
-                                <th><i class="fa-solid fa-check" style={{color:'#1bde17'}}></i></th>
-                                <th><i class="fa-solid fa-check"style={{color:'#1bde17'}}></i></th>
+                                <th><i className="fa-solid fa-check" style={{color:'#1bde17'}}></i></th>
+                                <th><i className="fa-solid fa-xmark"style={{color:'#fe0101'}}></i></th>
+                                <th><i className="fa-solid fa-xmark"style={{color:'#fe0101'}}></i></th>
+                                <th><i className="fa-solid fa-check" style={{color:'#1bde17'}}></i></th>
+                                <th><i className="fa-solid fa-check"style={{color:'#1bde17'}}></i></th>
                             </tr>
                             <tr>
                                 <th>Hands on Learning</th>
-                                <th><i class="fa-solid fa-xmark"style={{color:'#fe0101'}}></i></th>
-                                <th><i class="fa-solid fa-xmark"style={{color:'#fe0101'}}></i></th>
-                                <th><i class="fa-solid fa-check" style={{color:'#1bde17'}}></i></th>
-                                <th><i class="fa-solid fa-check" style={{color:'#1bde17'}}></i></th>
-                                <th><i class="fa-solid fa-check" style={{color:'#1bde17'}}></i></th>
+                                <th><i className="fa-solid fa-xmark"style={{color:'#fe0101'}}></i></th>
+                                <th><i className="fa-solid fa-xmark"style={{color:'#fe0101'}}></i></th>
+                                <th><i className="fa-solid fa-check" style={{color:'#1bde17'}}></i></th>
+                                <th><i className="fa-solid fa-check" style={{color:'#1bde17'}}></i></th>
+                                <th><i className="fa-solid fa-check" style={{color:'#1bde17'}}></i></th>
                             </tr>
                             <tr>
                                 <th>1:1 Mentorship</th>
-                                <th><i class="fa-solid fa-xmark"style={{color:'#fe0101'}}></i></th>
-                                <th><i class="fa-solid fa-xmark"style={{color:'#fe0101'}}></i></th>
-                                <th><i class="fa-solid fa-xmark"style={{color:'#fe0101'}}></i></th>
-                                <th><i class="fa-solid fa-xmark"style={{color:'#fe0101'}}></i></th>
-                                <th><i class="fa-solid fa-check" style={{color:'#1bde17'}}></i></th>
+                                <th><i className="fa-solid fa-xmark"style={{color:'#fe0101'}}></i></th>
+                                <th><i className="fa-solid fa-xmark"style={{color:'#fe0101'}}></i></th>
+                                <th><i className="fa-solid fa-xmark"style={{color:'#fe0101'}}></i></th>
+                                <th><i className="fa-solid fa-xmark"style={{color:'#fe0101'}}></i></th>
+                                <th><i className="fa-solid fa-check" style={{color:'#1bde17'}}></i></th>
                             </tr>
                             <tr>
                                 <th>Live 1:1 Doubt Sessions</th>
-                                <th><i class="fa-solid fa-xmark"style={{color:'#fe0101'}}></i></th>
-                                <th><i class="fa-solid fa-xmark"style={{color:'#fe0101'}}></i></th>
-                                <th><i class="fa-solid fa-xmark"style={{color:'#fe0101'}}></i></th>
-                                <th><i class="fa-solid fa-check" style={{color:'#1bde17'}}></i></th>
-                                <th><i class="fa-solid fa-check" style={{color:'#1bde17'}}></i></th>
+                                <th><i className="fa-solid fa-xmark"style={{color:'#fe0101'}}></i></th>
+                                <th><i className="fa-solid fa-xmark"style={{color:'#fe0101'}}></i></th>
+                                <th><i className="fa-solid fa-xmark"style={{color:'#fe0101'}}></i></th>
+                                <th><i className="fa-solid fa-check" style={{color:'#1bde17'}}></i></th>
+                                <th><i className="fa-solid fa-check" style={{color:'#1bde17'}}></i></th>
                             </tr>
                             <tr>
-                                <th>Aptitude Test TrainingNo</th>
-                                <th><i class="fa-solid fa-xmark"style={{color:'#fe0101'}}></i></th>
-                                <th><i class="fa-solid fa-xmark"style={{color:'#fe0101'}}></i></th>
-                                <th><i class="fa-solid fa-xmark"style={{color:'#fe0101'}}></i></th>
-                                <th><i class="fa-solid fa-check" style={{color:'#1bde17'}}></i></th>
-                                <th><i class="fa-solid fa-check" style={{color:'#1bde17'}}></i></th>
+                                <th>Aptitude Test Training</th>
+                                <th><i className="fa-solid fa-xmark"style={{color:'#fe0101'}}></i></th>
+                                <th><i className="fa-solid fa-xmark"style={{color:'#fe0101'}}></i></th>
+                                <th><i className="fa-solid fa-xmark"style={{color:'#fe0101'}}></i></th>
+                                <th><i className="fa-solid fa-check" style={{color:'#1bde17'}}></i></th>
+                                <th><i className="fa-solid fa-check" style={{color:'#1bde17'}}></i></th>
                             </tr>
                             <tr>
-                                <th>Live Interactive Online ClassesNo</th>
-                                <th><i class="fa-solid fa-xmark"style={{color:'#fe0101'}}></i></th>
-                                <th><i class="fa-solid fa-xmark"style={{color:'#fe0101'}}></i></th>
-                                <th><i class="fa-solid fa-xmark"style={{color:'#fe0101'}}></i></th>
-                                <th><i class="fa-solid fa-xmark"style={{color:'#fe0101'}}></i></th>
-                                <th><i class="fa-solid fa-check" style={{color:'#1bde17'}}></i></th>
+                                <th>Live Interactive Online Classes</th>
+                                <th><i className="fa-solid fa-xmark"style={{color:'#fe0101'}}></i></th>
+                                <th><i className="fa-solid fa-xmark"style={{color:'#fe0101'}}></i></th>
+                                <th><i className="fa-solid fa-xmark"style={{color:'#fe0101'}}></i></th>
+                                <th><i className="fa-solid fa-xmark"style={{color:'#fe0101'}}></i></th>
+                                <th><i className="fa-solid fa-check" style={{color:'#1bde17'}}></i></th>
                             </tr>
                             <tr>
-                                <th>100% Paid Internship On Completion*No</th>
-                                <th><i class="fa-solid fa-xmark"style={{color:'#fe0101'}}></i></th>
-                                <th><i class="fa-solid fa-xmark"style={{color:'#fe0101'}}></i></th>
-                                <th><i class="fa-solid fa-xmark"style={{color:'#fe0101'}}></i></th>
-                                <th><i class="fa-solid fa-xmark"style={{color:'#fe0101'}}></i></th>
-                                <th><i class="fa-solid fa-check" style={{color:'#1bde17'}}></i></th>
+                                <th>100% Paid Internship On Completion</th>
+                                <th><i className="fa-solid fa-xmark"style={{color:'#fe0101'}}></i></th>
+                                <th><i className="fa-solid fa-xmark"style={{color:'#fe0101'}}></i></th>
+                                <th><i className="fa-solid fa-xmark"style={{color:'#fe0101'}}></i></th>
+                                <th><i className="fa-solid fa-xmark"style={{color:'#fe0101'}}></i></th>
+                                <th><i className="fa-solid fa-check" style={{color:'#1bde17'}}></i></th>
                             </tr>
                             <tr>
-                                <th>LMS Access After CompetionYes</th>
-                                <th><i class="fa-solid fa-check" style={{color:'#1bde17'}}></i></th>
-                                <th><i class="fa-solid fa-check" style={{color:'#1bde17'}}></i></th>
-                                <th><i class="fa-solid fa-xmark" style={{color:'#fe0101'}}></i></th>
-                                <th><i class="fa-solid fa-check" style={{color:'#1bde17'}}></i></th>
-                                <th><i class="fa-solid fa-check" style={{color:'#1bde17'}}></i></th>
+                                <th>LMS Access After Competion</th>
+                                <th><i className="fa-solid fa-check" style={{color:'#1bde17'}}></i></th>
+                                <th><i className="fa-solid fa-check" style={{color:'#1bde17'}}></i></th>
+                                <th><i className="fa-solid fa-xmark" style={{color:'#fe0101'}}></i></th>
+                                <th><i className="fa-solid fa-check" style={{color:'#1bde17'}}></i></th>
+                                <th><i className="fa-solid fa-check" style={{color:'#1bde17'}}></i></th>
                             </tr>
                             <tr>
                                 <th>Dedicated Course Books</th>
-                                <th><i class="fa-solid fa-xmark"style={{color:'#fe0101'}}></i></th>
-                                <th><i class="fa-solid fa-xmark"style={{color:'#fe0101'}}></i></th>
-                                <th><i class="fa-solid fa-xmark"style={{color:'#fe0101'}}></i></th>
-                                <th><i class="fa-solid fa-xmark"style={{color:'#fe0101'}}></i></th>
-                                <th><i class="fa-solid fa-check" style={{color:'#1bde17'}}></i></th>
+                                <th><i className="fa-solid fa-xmark"style={{color:'#fe0101'}}></i></th>
+                                <th><i className="fa-solid fa-xmark"style={{color:'#fe0101'}}></i></th>
+                                <th><i className="fa-solid fa-xmark"style={{color:'#fe0101'}}></i></th>
+                                <th><i className="fa-solid fa-xmark"style={{color:'#fe0101'}}></i></th>
+                                <th><i className="fa-solid fa-check" style={{color:'#1bde17'}}></i></th>
                             </tr>
                         </tbody>
                     </Table>

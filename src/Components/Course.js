@@ -12,11 +12,11 @@ function Courses() {
   return (
     <section className='course' id='course'>
         <Container>
-            <Row>
+            <Row className='justify-content-cemter'>
               <TrackVisibility>
               {({ isVisible }) => 
                 <div className="course-title"><h2 style={{fontWeight:'600'}} className={isVisible ? 'animate__animated animate__fadeInLeft' : ''}>This Course Is Specially Curated for ?</h2></div>}
-                </TrackVisibility>           
+                </TrackVisibility><hr />           
                 <Col>
                 <div className="card-container">
                 <Card style={{ width: '20rem', marginBottom:'3rem',display:'flex', justifyContent: 'center',alignItems:'center' }}>

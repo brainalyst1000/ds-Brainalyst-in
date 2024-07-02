@@ -15,7 +15,7 @@ export const Jobprep=()=>{
                 <Row><TrackVisibility>
                 {({ isVisible }) =>
                 <div className="course-title"><h2 style={{fontWeight:'600'}} className={isVisible ?'animate__animated animate__flipInY' : ''}>Job Prepration</h2></div>}
-                </TrackVisibility>
+                </TrackVisibility><hr />
                   
                 <Col style={{display:'flex',justifyContent:'center',alignItems:'center'}}><Card style={{ width: '20rem', marginBottom:'3rem',display:'flex', justifyContent: 'center',alignItems:'center' }}>
                          <Card.Img variant="top" src={jobprepimg1} style={{maxWidth:"7rem", marginTop:'2rem'}} />

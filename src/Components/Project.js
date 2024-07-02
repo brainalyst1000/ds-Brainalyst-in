@@ -13,7 +13,7 @@ export const Project=()=>{
                     <TrackVisibility>
                     {({ isVisible }) =>
                 <div className="course-title"><h2 style={{display:'flex',justifyContent:'center',alignItems:'center',fontWeight:'600'}} className={isVisible ? 'animate__animated animate__bounce' : ''}>Project</h2></div>}
-                </TrackVisibility>
+                </TrackVisibility><hr />
                 <Col style={{display:'flex',justifyContent:'center',alignItems:'center'}}><Card style={{ width: '20rem', marginBottom:'3rem',display:'flex', justifyContent: 'center',alignItems:'center' }}>
                          <Card.Img variant="top" src={project1} style={{maxWidth:"7rem", marginTop:'2rem'}} />
                        <Card.Body>

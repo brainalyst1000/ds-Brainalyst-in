@@ -10,3 +10,11 @@
 .career button:hover svg {
     margin-left: 25px;
   }
+  .career img{
+    max-width: 45rem;
+    width: 100%;
+  }
+  .career{
+    pad: 2rem 0;
+  }
+  

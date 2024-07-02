@@ -16,6 +16,9 @@ import { Details } from './Components/Details';
 import { Book } from './Components/Book';
 import { FAQ } from './Components/Faq';
 import {Foot} from './Components/Footer';
+import CurriculumModal from './Components/Modal'
+import CourseDetailsModal from './Components/Modal2';
+import PopupForm from './Components/PopupForm';
 import { BrowserRouter as Router, Route, Routes,Link} from 'react-router-dom';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -27,12 +30,13 @@ function App() {
   return (  
     <Router>
     <div className="App">
+      <PopupForm/>
       <NavBar/>
       <Routes>
           <Route path="/" element={
             <>
             <IndividualIntervalsExample/>
-      <Courses/>
+            <Courses/>
       <CurriculumSection/>
       <Project/>
       <Jobprep/>
@@ -45,12 +49,11 @@ function App() {
       <Cretificate/>
       <Details/>
       <Book/>
-
-            </>} />
-          
+            </>} />          
           <Route path="/faq" element={<FAQ />} />
         </Routes>
-       
+       <CurriculumModal/>
+       <CourseDetailsModal/>
       <Foot/>      
     </div>
     </Router>
