@@ -1,0 +1,99 @@
+.book{
+    padding: 0 0 50px 0;
+    position: relative;
+}
+.book-bx{
+    background-image: linear-gradient(360deg, #838186 43%, #040304 100%);
+    border-radius: 64px;
+    text-align: center;
+    padding: 60px 50px;
+    margin-top: 35px;
+}
+.book h2{
+    font-size: 45px;
+    font-weight: 700;
+    color: #fff;
+    margin-bottom: 25px;
+}
+.book-slider{
+    width: 80%;
+    margin: 0 auto;
+    position: relative;
+}
+.book-slider .items{
+    text-align: center;
+}
+.book-slider .items img{
+    width: 50%;
+    margin: 0 auto 15% auto;
+}
+
+
+.background-image-left {
+    top: 28%;
+    position: absolute;
+    bottom: 0;
+    width: 40%;
+    z-index: -4;
+}
+@media (max-width: 768px) {
+    .book-bx {
+        padding: 30px 20px;
+        margin-top: -30px;
+    }
+
+    .book-bx h2 {
+        font-size: 32px;
+    }
+
+    .book-bx p {
+        font-size: 16px;
+        margin: 10px 0 50px 0;
+    }
+
+    .book-slider {
+        width: 100%; 
+    }
+
+    .book-slider .item img {
+        width: 70%; 
+    }
+
+    .book-slider .item {
+        margin-bottom: 20px; 
+    }
+
+    .background-image-left {
+        top: 40%;
+        width: 60%;
+    }
+}
+
+@media (max-width: 480px) {
+    .book-bx {
+        padding: 20px 10px;
+        margin-top: -20px;
+    }
+
+    .book-bx h2 {
+        font-size: 28px;
+    }
+
+    .book-bx p {
+        font-size: 14px;
+        margin: 8px 0 30px 0;
+    }
+
+    .book-slider .item img {
+        width: 80%; 
+    }
+
+    .book-slider .item {
+        margin-bottom: 20px;
+    }
+
+    .background-image-left {
+        top: 50%;
+        width: 80%;
+    }
+}

@@ -1,0 +1,42 @@
+.banner{
+    background-image: url('../b3.jpeg');
+    background-size: cover;
+    opacity: 0.5; 
+    }
+#custom-row-css{
+    padding: 16rem;
+    padding-bottom: 12rem;
+    width: 100rem;
+}
+.div2{
+    margin-bottom: 20px;
+}
+.h2-col1{
+    color: #FFF;
+    font-family: "Tahoma", Sans-serif;
+    font-size: 22px;
+    font-weight: 700;
+    font-style: oblique;
+    line-height: 49px;
+    -webkit-text-stroke-color: #000;
+    stroke: #000;
+}
+.h2-1-col{
+    color: #FFF;
+    font-family: "Tahoma", Sans-serif;
+    font-size: 22px;
+    font-weight: 600;
+    font-style: italic;
+    line-height: 49px;
+    -webkit-text-stroke-color: #000;
+    stroke: #000;
+}
+.uskill-h5-2{
+    color: #FFF;
+    font-family: "Tahoma", Sans-serif;
+    font-size: 51px;
+    font-weight: 700;
+    line-height: 66px;
+    -webkit-text-stroke-color: #000;
+    stroke: #000;
+}
